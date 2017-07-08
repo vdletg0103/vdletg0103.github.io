@@ -1,0 +1,87 @@
+h1 {
+    font-size: 2em;
+    color:red;
+    font-style: italic;
+    font-family: "Comic Sans MS","monospace";
+    text-shadow: 2px 2px 5px grey;
+    border:1px dashed black;
+    padding: 10px;
+    margin: 10px;
+    }
+li{
+    background-color: grey;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+.underline{
+    text-decoration: underline pink; 
+}
+.red-colour {color:red;
+
+}
+.blue-color {color:blue;
+}
+
+.box-blue {
+    background-color:lightblue;
+    border: 5px blue solid;
+    border-radius: 0px;
+    width: 200px;
+    height:200px;
+    transition-property: border-radius, background-color, border;
+    transition-duration: 500ms;
+    transition-timing-function: linear;
+
+}
+
+.box-blue:hover {
+    background-color:pink;
+    border-radius: 150px;
+    border: 5px red dotted;
+}
+
+.riseup {
+font-size: 2em;
+text-shadow:0px 0px 0px grey;
+transition-property: text-shadow;
+transition-duration: 300ms;
+transition-timing-function: linear;
+}
+
+.riseup:hover {
+    text-shadow:7px 7px 5px grey;
+    
+}
+
+p:before {
+    content:url('http://vignette1.wikia.nocookie.net/disney/images/5/54/Pooh-bear-clip-art-winniepooh_1_800_800.jpg/revision/latest?cb=20140909020750')
+}
+a:after {
+    content:"[LINK]"
+}
+
+.menuitem {
+    display:inline;
+    background-color: lightgrey;
+    font-size: 2em;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: 0px solid transparent;
+    opacity: 0.5;
+    transition-duration: 300ms;
+    transition-property: border-bottom,opacity;
+    transition-timing-function: linear;
+}
+
+.menuitem:hover {
+    border-bottom: 5px solid blue;
+    opacity:1;
+}
+    
+    
